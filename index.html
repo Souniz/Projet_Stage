@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div id="repo"></div>
+        <input type="text" id="question_input" placeholder="Posez votre question">
+        <button id="poser_question_btn" onclick="question()">Poser</button>
+    </div>
+    <div id="reponse_div"></div>
+    <Script>
+        function question(){
+            var request = new XMLHttpRequest();
+            request.onreadystatechange = function(){
+                if(this.readyState == 4 && this.status == 200){
+                    let divContainer = document.getElementById("repo")
+                    let paragraphe = document.createElement("p");
+                    let chat=document.createElement("span")
+                    chat.textContent="Chat"
+                    //chat.style.color="blue"
+                    reponse=this.responseText
+                    reponse=reponse.replace(/["{}]/gi, '').split(":")[1]
+                    paragraphe.appendChild(chat)
+                    paragraphe.textContent = reponse
+                    divContainer.appendChild(paragraphe);
+                    document.getElementById("question_input").value=""
+                }
+            }
+            var userInput = document.getElementById("question_input").value;
+            var data = JSON.stringify({ question: userInput });
+            request.open("POST", "http://127.0.0.1:5000/myapi");
+            request.setRequestHeader("Content-Type", "application/json");
+            request.send(data);
+
+        }
+    </Script>
+</body>
+</html>
