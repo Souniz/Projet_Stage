@@ -43,6 +43,7 @@
                     paragraphe_chat.setAttribute("id","paragraphe_chat")
                     reponse=this.responseText
                     reponse=reponse.replace(/["{}]/gi, '').split(":")[1]
+                    reponse=unescape(reponse.replace(/\\u/g, '%u')).toLowerCase()
                     let chat=document.createElement("span")
                     chat.setAttribute("id","icone_chat")
                     let reponse_ch=document.createElement("span")

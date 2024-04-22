@@ -1,17 +1,21 @@
 import numpy as np
 import nltk
-nltk.download('punkt')
+from nltk.stem.snowball import SnowballStemmer
+import spacy
+nltk.download('popular')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('wordnet')
-from nltk.stem.porter import PorterStemmer
-stemmer = PorterStemmer()
+nlp = spacy.load("fr_core_news_sm")
+stemmer =  SnowballStemmer("french")
 
 def tokenize(sentence):
     """
     split sentence into array of words/tokens
     a token can be a word or punctuation character, or number
     """
-    return nltk.word_tokenize(sentence)
+    #return nltk.word_tokenize(sentence,language='french')
+    token=nlp(sentence)
+    return [str(i) for i in token]
 
 
 def stem(word):
