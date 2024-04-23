@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request
 from chat import reponse_chat
 from flask_cors import CORS
 app = Flask(__name__)
@@ -9,7 +9,7 @@ CORS(app)
 def my_api():
     question = request.json['question']
     reponsee = reponse_chat(question)
-    return jsonify({"reponse": reponsee})
+    return reponsee
 
 if __name__ == '__main__':
     app.run(debug=True)
