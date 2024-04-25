@@ -5,34 +5,22 @@
       "patterns": [
         "Bonjour",
         "Bonjour, comment ça va ?",
-        "Bonjour,  comment allez-vous ?"
-      ],
-      "responses": [
-        "Bonjour, bienvenu nous sommes ravis de vous aider dans l'exploration du numerique",
-        "Bonjour,bienvenu nous sommes ravis de vous aider dans l'exploration du numerique",
-        "Bonjour, que puis-je faire pour vous ?",
-        "Bonjour, comment puis-je vous aider ?",
-        "Bonjour Je vais bien, merci! Et vous ?",
-        "Bonjour Ca va au Top! et Vous?",
-        "Bonsoir ! Comment puis-je vous aider aujourd'hui ? ",
-        "Bonjour ! Comment puis-je vous aider aujourd'hui ? "
-      ]
-    },
-    {
-      "tag": "bonsoir",
-      "patterns": [
+        "Bonjour,  comment allez-vous ?",
         "Bonsoir",
         "Bonsoir, comment ça va ?",
         "Bonsoir,  comment allez-vous ?"
       ],
       "responses": [
+        "Bonjour, bienvenu nous sommes ravis de vous aider dans l'exploration du numerique",
+        "Bonjour, que puis-je faire pour vous ?",
+        "Bonjour Je vais bien, merci! Et vous ?",
+        "Bonjour ça va au Top! et Vous?",
+        "Bonjour ! Comment puis-je vous aider aujourd'hui ? ",
         "Bonsoir, bienvenu nous sommes ravis de vous aider dans l'exploration du numerique",
-        "Bonsoir, que puis-je faire pour vous ?",
         "Bonsoir, comment puis-je vous aider ?",
         "Bonsoir Je vais bien, merci! Et vous ?",
         "Bonsoir ça va au Top! et Vous?",
         "Bonsoir ! Comment puis-je vous aider aujourd'hui ? "
-       
       ]
     },
     {
@@ -47,8 +35,8 @@
         "Salut, que puis-je faire pour vous ?",
         "Salut, comment puis-je vous aider ?",
         "Salut Je vais bien, merci! Et vous ?",
-        "Salut ca va au Top! et Vous?",
-        "Salut ! Comment puis-je vous aider aujourd'hui ? "
+        "Salut,ça va au Top! et Vous?",
+        "Salut, Comment puis-je vous aider aujourd'hui ? "
        
       ]
     },
@@ -56,32 +44,52 @@
        "tag":"gmail",
        "patterns":[
             "Comment créer un compte gmail ?",
-            "J'ai oublie le mot de passe de mon compte gmail",
-            "J'arrive a acceder a mon compte gmail ?",
+            "Je veux créer un compte gmail ?",
+            "J'ai oublié le mot de passe de mon compte gmail",
+            "J'arrive pas à acceder a mon compte gmail ?",
             "Je veux joindre un fichier par mail",
             "J'arrive pas à joindre un fichier par mail",
             "Comment supprimer un mail",
+            "Comment changer le mot de passe de mon compte gmail",
             "Comment consulter les spams de ma boite mail"
           ],
       "responses": [
-        "Pour créer un compte gmail aller à la page ressource y'a des vidéos là-bas",
-        "Pour recupéré votre mot de passe gmail aller à la page ressource y'a des vidéos là-bas",
-        "Pour savoir comment recuperer votre mot de passe gmail aller à la page ressource y'a des vidéos là-bas",
+        "Pour savoir comment créer un compte gmail aller à la page ressource y'a des vidéos là-bas",
+        "Pour savoir comment recupéré votre mot de passe gmail aller à la page ressource y'a des vidéos là-bas",
+        "Pour savoir comment changer  votre mot de passe gmail aller à la page ressource y'a des vidéos là-bas",
         "Pour savoir comment joindre votre fichier à un mail sur gmail aller à la page ressource y'a des vidéos là-bas",
         "Pour savoir comment supprimer un mail aller à la page ressource y'a des vidéos là-bas",
-        "Pour savoir comment consulter vos spams aller à la page ressource y'a des vidéos là-bas"
+        "Pour savoir comment consulter vos spams aller à la page ressource y'a des vidéos là-bas",
+        "Pour savoir comment créer un compte gmail aller à la page ressource y'a des vidéos là-bas"
       ]
     },
+    {
+      "tag":"mail",
+      "patterns":[
+        "Je veux joindre un fichier par mail",
+        "J'arrive pas à joindre un fichier par mail",
+        "Comment supprimer un mail",
+        "Comment consulter les spams de ma boite mail"
+         ],
+     "responses": [
+        "Pour savoir comment joindre un fichier à un mail sur gmail aller à la page ressource y'a des vidéos là-bas",
+        "Pour savoir comment supprimer un mail aller à la page ressource y'a des vidéos là-bas",
+        "Pour savoir comment consulter vos spams aller à la page ressource y'a des vidéos là-bas"
+     ]
+
+   },
     {
       "tag":"google",
       "patterns":[
            "Comment créer un compte google ?",
            "Je veux créer un compte google ?",
-           "J'ai oublie le mot de passe de mon compte google"
+           "J'ai oublié le mot de passe de mon compte google",
+           "Comment changer le mot de passe de mon compte google ?"
          ],
      "responses": [
        "Pour créer un compte google aller à la page ressource y'a des vidéos là-bas",
-       "Pour savoir comment recuperer votre mot de passe google aller à la page ressource y'a des vidéos là-bas" 
+       "Si vos avez oublié votre mot de passe google aller à la page ressource y'a des vidéos là-bas",
+       "Pour savoir comment changer le mot de passe de votre compte google aller à la page ressource y'a des vidéos là-bas"
      ]
 
    },
@@ -98,11 +106,11 @@
     {
       "tag": "merci",
       "patterns": ["Merci", "Merci beaucoup", "C'est utile", "Merci beaucoup !"],
-      "responses": ["Heureux de pouvoir vous aider !", "De rien !", "C'est un  plaisir !","Je suis la pour vous aider"]
+      "responses": ["Je vous en prie!Je suis la pour vous aider", "De rien !Je suis la pour vous aider", "C'est un  plaisir !Je suis la pour vous aider"]
     },
     {
       "tag": "qr",
-      "patterns": [
+      "patterns":[
         "Comment scanner un qr code?",
         "Je dois scanner un QR code mais j'arrive pas ?",
         "J'ai un probléme pour scanner un QR code?",
@@ -256,8 +264,9 @@
       ],
       "responses": [
         "Pour savoir comment créer un compte caf à la page ressource y'a des vidéos là-bas",
+        "Pour savoir comment modifier votre le mot de passe de votre compte caf à la page ressource y'a des vidéos là-bas",
         "Pour trouver des vidéos sur comment créer un compte caf aller à la page ressource y'a des vidéos là-bas",
-        "Pour voir comment modifier des informations sur votre compte caf aller ",
+        "Pour voir comment modifier des informations sur votre compte caf aller à la page ressource y'a des vidéos là-bas",
         "Pour apprendre à créer un compte caf aller à la page ressource y'a des vidéos là-bas à la page ressource y'a des vidéos là-bas",
         "Pour toute information concernant la creation la modification de votre compte caf aller à la page ressource y'a des vidéos là-bas"
       ]
@@ -294,7 +303,7 @@
       ]
     },
     {
-      "tag": "impot",
+      "tag": "impôt",
       "patterns": [
         "Comment créer un compte sur  impôt.gouv.fr ?",
         "Je veux créer un compte impôt.gouv.fr",

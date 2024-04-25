@@ -28,6 +28,7 @@ model.eval()
 def reponse_chat(sentence):
     sentence = tokenize(sentence)
     X = bag_of_words(sentence, all_words)
+    tmp=X.copy()
     X = X.reshape(1, X.shape[0])
     X = torch.from_numpy(X).to(device)
 
@@ -38,9 +39,19 @@ def reponse_chat(sentence):
 
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
-    if prob.item() > 0.90:
+    if prob.item() > 0.97:
         for intent in intents['intents']:
             if tag == intent["tag"]:
-                return random.choice(intent['responses'])
+                max_occ=0
+                index=0
+                for i in range(len(intent["responses"])):
+                    rep=intent['responses'][i]
+                    rep=bag_of_words(tokenize(rep),all_words)
+                    if count_occur(rep,tmp)>max_occ:
+                        max_occ=count_occur(rep,tmp)
+                        index=i
+                return intent['responses'][index]
     else:
-        return "J'ai pas compris..."
+        return "Je suis désolé je n'ai pas compris votre question ou je n'ai pas encore la réponse à celle-ci.Pouvez-vous reformuler votre question avec une phrase courte et des termes simples ?"
+def count_occur(sentence,reponse):
+    return sum([1 for i in range(len(sentence)) if reponse[i]==sentence[i] and reponse[i]==1])

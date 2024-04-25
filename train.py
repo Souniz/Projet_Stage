@@ -27,7 +27,7 @@ for intent in intents['intents']:
         xy.append((w, tag))
 
 # stem and lower each word
-ignore_words = ['?', '!']
+ignore_words = ['?', '!','.',',']
 all_words = [stem(w) for w in all_words if w not in ignore_words]
 
 # remove duplicates and sort
