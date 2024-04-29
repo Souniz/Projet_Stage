@@ -5,21 +5,21 @@
       "patterns": [
         "Bonjour",
         "Bonjour, comment ça va ?",
-        "Bonjour,  comment allez-vous ?",
+        "Bonjour, comment allez-vous ?",
         "Bonsoir",
         "Bonsoir, comment ça va ?",
-        "Bonsoir,  comment allez-vous ?"
+        "Bonsoir, comment allez-vous ?"
       ],
       "responses": [
-        "Bonjour, bienvenu nous sommes ravis de vous aider dans l'exploration du numerique",
+        "Bonjour, bienvenue, nous sommes ravis de vous aider dans l'exploration du numerique",
         "Bonjour, que puis-je faire pour vous ?",
-        "Bonjour Je vais bien, merci! Et vous ?",
-        "Bonjour ça va au Top! et Vous?",
+        "Bonjour, Je vais bien, merci! Et vous ?",
+        "Bonjour, ça va au Top! et Vous?",
         "Bonjour ! Comment puis-je vous aider aujourd'hui ? ",
-        "Bonsoir, bienvenu nous sommes ravis de vous aider dans l'exploration du numerique",
+        "Bonsoir, bienvenue, nous sommes ravis de vous aider dans l'exploration du numerique",
         "Bonsoir, comment puis-je vous aider ?",
-        "Bonsoir Je vais bien, merci! Et vous ?",
-        "Bonsoir ça va au Top! et Vous?",
+        "Bonsoir, Je vais bien, merci! Et vous ?",
+        "Bonsoir, ça va au Top! et Vous?",
         "Bonsoir ! Comment puis-je vous aider aujourd'hui ? "
       ]
     },
@@ -28,14 +28,14 @@
       "patterns": [
         "Salut",
         "Salut, comment ça va ?",
-        "Salut,  comment allez-vous ?"
+        "Salut, comment allez-vous ?"
       ],
       "responses": [
-        "Salut, bienvenu nous sommes ravis de vous aider dans l'exploration du numerique",
+        "Salut, bienvenue, nous sommes ravis de vous aider dans l'exploration du numerique",
         "Salut, que puis-je faire pour vous ?",
         "Salut, comment puis-je vous aider ?",
-        "Salut Je vais bien, merci! Et vous ?",
-        "Salut,ça va au Top! et Vous?",
+        "Salut, Je vais bien, merci! Et vous ?",
+        "Salut, ça va au Top! et Vous ?",
         "Salut, Comment puis-je vous aider aujourd'hui ? "
        
       ]
@@ -54,27 +54,27 @@
             "Comment consulter les spams de ma boite mail"
           ],
       "responses": [
-        "Pour savoir comment créer un compte gmail aller à la page ressource y'a des vidéos là-bas",
-        "Pour savoir comment recupéré votre mot de passe gmail aller à la page ressource y'a des vidéos là-bas",
-        "Pour savoir comment changer  votre mot de passe gmail aller à la page ressource y'a des vidéos là-bas",
-        "Pour savoir comment joindre votre fichier à un mail sur gmail aller à la page ressource y'a des vidéos là-bas",
-        "Pour savoir comment supprimer un mail aller à la page ressource y'a des vidéos là-bas",
-        "Pour savoir comment consulter vos spams aller à la page ressource y'a des vidéos là-bas",
-        "Pour savoir comment créer un compte gmail aller à la page ressource y'a des vidéos là-bas"
+        "Pour savoir comment créer un compte gmail, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour savoir comment recupérer votre mot de passe gmail, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour savoir comment changer votre mot de passe gmail, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour savoir comment joindre votre fichier à un mail sur gmail, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour savoir comment supprimer un mail, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour savoir comment consulter vos spams, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour savoir comment supprimer un compte gmail, allez à la page ressource où vous pouvez trouver des vidéos"
       ]
     },
     {
       "tag":"mail",
       "patterns":[
         "Je veux joindre un fichier par mail",
-        "J'arrive pas à joindre un fichier par mail",
+        "Je n'arrive pas à joindre un fichier par mail",
         "Comment supprimer un mail",
         "Comment consulter les spams de ma boite mail"
          ],
      "responses": [
-        "Pour savoir comment joindre un fichier à un mail sur gmail aller à la page ressource y'a des vidéos là-bas",
-        "Pour savoir comment supprimer un mail aller à la page ressource y'a des vidéos là-bas",
-        "Pour savoir comment consulter vos spams aller à la page ressource y'a des vidéos là-bas"
+        "Pour savoir comment joindre un fichier à un mail sur gmail, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour savoir comment supprimer un mail, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour savoir comment consulter vos spams, allez à la page ressource où vous pouvez trouver des vidéos"
      ]
 
    },
@@ -87,9 +87,9 @@
            "Comment changer le mot de passe de mon compte google ?"
          ],
      "responses": [
-       "Pour créer un compte google aller à la page ressource y'a des vidéos là-bas",
-       "Si vos avez oublié votre mot de passe google aller à la page ressource y'a des vidéos là-bas",
-       "Pour savoir comment changer le mot de passe de votre compte google aller à la page ressource y'a des vidéos là-bas"
+       "Pour créer un compte google, allez à la page ressource où vous pouvez trouver des vidéos",
+       "Si vous avez oublié votre mot de passe google, allez à la page ressource où vous pouvez trouver des vidéos",
+       "Pour savoir comment changer le mot de passe de votre compte google, allez à la page ressource où vous pouvez trouver des vidéos"
      ]
 
    },
@@ -100,44 +100,46 @@
         "A bientôt, merci de votre visite",
         "Bonne journée",
         "Au revoir ! Revenez bientôt.",
-        "Au revoir n'esitez pas à revenir pour d'autres question!"
+        "Au revoir n'hesitez pas à revenir pour d'autres questions !"
       ]
     },
     {
       "tag": "merci",
       "patterns": ["Merci", "Merci beaucoup", "C'est utile", "Merci beaucoup !"],
-      "responses": ["Je vous en prie!Je suis la pour vous aider", "De rien !Je suis la pour vous aider", "C'est un  plaisir !Je suis la pour vous aider"]
+      "responses": ["Je vous en prie ! Je suis là pour vous aider", 
+                    "De rien ! Je suis là pour vous aider", 
+                    "C'est un  plaisir ! Je suis là pour vous aider"]
     },
     {
       "tag": "qr",
       "patterns":[
         "Comment scanner un qr code?",
-        "Je dois scanner un QR code mais j'arrive pas ?",
-        "J'ai un probléme pour scanner un QR code?",
+        "Je dois scanner un QR code mais je n'arrive pas ?",
+        "J'ai un problème pour scanner un QR code ?",
         "je veux des vidéos sur l'utilisation de Qr code",
         "Je'aimerai apprendre à utiliser les qr code",
         "Je veux apprendre à utiliser les qr code"
       ],
       "responses": [
-        "Pour savoir comment scanner un QR code aller à la page ressource",
-        "Si t'a un probléme sur l'utilisation du QR code aller à la page ressource",
-        "Pour toute information sur l'utilisation du QR code aller à la page ressource"
+        "Pour savoir comment scanner un QR code, allez à la page ressource",
+        "Si vous avez un problème sur l'utilisation du QR code, allez à la page ressource",
+        "Pour toute information sur l'utilisation du QR code, allez à la page ressource"
       ]
     },
     {
         "tag":"aide",
         "patterns":[
             "Peux-tu m'aider svp ?",
-            "J'ai un probléme ?",
-            "Pouvez-vous m'aider s'il vous plait?",
+            "J'ai un problème ?",
+            "Pouvez-vous m'aider s'il vous plait ?",
             "J'ai un souci",
             "J'ai besoin d'aide",
-            "Aider moi"
+            "Aidez-moi"
         ],
         "responses":[
             "Bien sûr ! Je suis là pour vous aider. Que puis-je faire pour vous aujourd'hui ?",
             "Je suis là pour vous aider. Quel est votre souci ?",
-            "Pouvez-vous m'expliquer votre probléme",
+            "Pouvez-vous m'expliquer votre problème",
             "Pouvez-vous m'expliquer votre souci"
         ]
     },
@@ -146,77 +148,77 @@
       "patterns": [
         "thématiques ?",
         "domaines ?",
-        "Quels sont vos domaine d'expertise ?",
+        "Quels sont vos domaines d'expertise ?",
         "Vos thématiques ?",
-        "Vos dommaines ?",
+        "Vos domaines ?",
         "Quelles sont vos thématiques ?",
         "Quelles thématiques je peux vous poser une question ?"
       ],
       "responses": [
-        "Nous pouvons vous aider sur la thématique medical,Administratif,Securite,Base internet",
-        "Nous pouvons vous aider sur plusieurs dommaines comme medical,Administratif,Securite,Base internet"
+        "Nous pouvons vous aider sur la thématique medicale, administrative, de sécurité, d'internet",
+        "Nous pouvons vous aider dans plusieurs dommaines comme medical, administratif, sécurité, internet"
       ]
     },
     {
-      "tag": "medical",
+      "tag": "médical",
       "patterns": [
         "je ne sais pas utiliser Doctolib",
-        "Comment je peux trouver un medcin pour un rendez-vous medical sur Doctolib?",
+        "Comment je peux trouver un médecin pour un rendez-vous médical sur Doctolib?",
         "Je veux créer un compte sur Doctolib ?",
-        "Comment je peux faire pour trouver un rendez-vous medical sur Doctolib?",
-        "Je veux trouver un rendez-vous medical sur Doctolib",
-        "Comment trouver un medcin pour un rendez vous medical sur Doctolib ",
-        "Je veux prendre un rendez-vous medical avec un medecin sur Doctolib",
-        "Comment annuler mon rendez-vous medical sur Doctolib ?",
-        "Comment modifier mon rendez-vous medical sur Doctolib ?",
-        "Comment avoir des informations dans le domaine medical ?",
-        "Comment utiliser Doctlib  pour prendre un rendez-vous medical ?",
-        "Commment  trouver des ressorces pour la thématiques sante ?",
-        "Commment  trouver des ressorces dans le domaine de la sante ?",
-        "Ou je peux trouver les vidéos de Doctolib ?",
-        "Ou je peux trouver des vidéos sur l'utilisation de Doctolib ?",
-        "Est-ce-que je peux trouver des vidéos concernant  Doctilib ?"
+        "Comment je peux faire pour trouver un rendez-vous médical sur Doctolib?",
+        "Je veux trouver un rendez-vous médical sur Doctolib",
+        "Comment trouver un médecin pour un rendez-vous médical sur Doctolib ",
+        "Je veux prendre un rendez-vous médical avec un médecin sur Doctolib",
+        "Comment annuler mon rendez-vous médical sur Doctolib ?",
+        "Comment modifier mon rendez-vous médical sur Doctolib ?",
+        "Comment avoir des informations dans le domaine médical ?",
+        "Comment utiliser Doctolib pour prendre un rendez-vous médical ?",
+        "Commment trouver des ressources pour la thématiques santé ?",
+        "Commment trouver des ressources dans le domaine de la santé ?",
+        "Où est-ce que je peux trouver les vidéos de Doctolib ?",
+        "Où est-ce que je peux trouver des vidéos sur l'utilisation de Doctolib ?",
+        "Est-ce-que je peux trouver des vidéos concernant Doctolib ?"
         
       ],
       "responses": [
-        "Pour toutes information concernant vos rendez-vous medical sur Doctlib aller sur la page d'accueil et defiler en bas jusqu'a la thématique sante",
-        "Vous pouvez aller à la page d'accueil de notre platforme vous trouverez toutes les informations concernant l'utilisation de la platforme Doctolib",
-        "On a mis plusieurs vidéos sur la platforme pour vous accompagner dans vos demarches medical sur Doctolib",
-        "Aller a la thématiques sante dans le page ressource de notre platforme vous trouverez toute les informations concernant l'utlisation de Doctolib",
-        "Pour regarder les vidéos corncernant Doctolib aller a la thématiques sante dans la page ressource de notre platforme vous trouverez toute les informations concernant l'utlisation de Doctolib ou bien aller dans notre chaine youtube"
+        "Pour toutes les informations concernant vos rendez-vous médicaux sur Doctolib, allez sur la page d'accueil et défiler en bas jusqu'à la thématique santé",
+        "Vous pouvez aller à la page d'accueil de notre plateforme  oùvous trouverez toutes les informations concernant l'utilisation de la plateforme Doctolib",
+        "On a mis plusieurs vidéos sur la plateforme pour vous accompagner dans vos démarches médicales sur Doctolib",
+        "Allez à la thématiques santé dans la page ressource de notre plateforme où vous trouverez toutes les informations concernant l'utilisation de Doctolib",
+        "Pour regarder les vidéos corncernant Doctolib, allez à la thématiques santé dans la page ressource de notre plateforme où vous trouverez toutes les informations concernant l'utlisation de Doctolib ou bien allez sur notre chaine youtube"
       ]
     },
     {
       "tag": "formulaire",
       "patterns": [
-        "J'arrive pas à remplir un formulaire",
-        "J'ai un probléme pour à insérer un fichier dans dans un formulaire",
-        "Comment rempir un formulaire ?",
-        "Ou je peux trouver des vidéos pour remplir un formulaire ?",
+        "Je n'arrive pas à remplir un formulaire",
+        "J'ai un problème pour insérer un fichier dans un formulaire",
+        "Comment remplir un formulaire ?",
+        "Où est-ce que je peux trouver des vidéos pour remplir un formulaire ?",
         "Je veux apprendre à remplir un formulaire ?"
 
       ],
       "responses": [
-        "Pour savoir comment remplir un formulaire aller à la page ressource y'a des vidéos là-bas",
-        "Pour trouver des vidéos sur comment remplir un formulaire aller à la page ressource y'a des vidéos là-bas",
-        "Pour apprendre comment remplir un formulaire aller à la page ressource y'a des vidéos là-bas",
-        "Pour toute information concernant le remplisage de formulaire aller à la page ressource y'a des vidéos là-bas"
+        "Pour savoir comment remplir un formulaire aller à la page ressource où vous pouvez trouver des vidéos",
+        "Pour trouver des vidéos sur comment remplir un formulaire, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour apprendre comment remplir un formulaire, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour toute information concernant le remplissage de formulaire, allez à la page ressource où vous pouvez trouver des vidéos"
       ]
     },
     {
       "tag": "windows",
       "patterns": [
         "Comment créer un dossier sur windows",
-        "j'arrive pas à créer un dossier sur windows",
+        "Je n'arrive pas à créer un dossier sur windows",
         "Comment supprimer un dossier sur windows ?",
-        "Comment deplacer un dossier sur windows",
-        "Comment mettre à jour mon systeme windows"
+        "Comment déplacer un dossier sur windows",
+        "Comment mettre à jour mon système windows"
       ],
       "responses": [
-        "Pour créer un dossier sur windows aller à la page ressource y'a des vidéos là-bas",
-        "Pour trouver des vidéos sur comment créer  un dossier sur windows aller à la page ressource y'a des vidéos là-bas",
-        "Pour apprendre comment créer un dossier sur windows aller à la page ressource y'a des vidéos là-bas",
-        "Pour toute information concernant la creation ,la suppression ou le deplacement de dossier sur windows aller à la page ressource y'a des vidéos là-bas"
+        "Pour créer un dossier sur windows, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour trouver des vidéos sur comment créer un dossier sur windows, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour apprendre comment créer un dossier sur windows, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour toute information concernant la création, la suppression ou le déplacement de dossier sur windows, allez à la page ressource où vous pouvez trouver des vidéos"
       ]
     },
     {
@@ -225,50 +227,51 @@
         "Comment créer un dossier sur mac ?",
         "j'arrive pas à créer un dossier sur mac",
         "Comment supprimer un dossier sur mac ?",
-        "Comment deplacer un dossier sur mac",
-        "Comment mettre à jour mon systeme mac"
+        "Comment déplacer un dossier sur mac",
+        "Comment mettre à jour mon système mac"
       ],
       "responses": [
-        "Pour créer un dossier sur mac aller à la page ressource y'a des vidéos là-bas",
-        "Pour trouver des vidéos sur comment créer  un dossier sur mac aller à la page ressource y'a des vidéos là-bas",
-        "Pour apprendre comment créer un dossier sur mac aller à la page ressource y'a des vidéos là-bas",
-        "Pour toute information concernant la creation ,la suppression ou le deplacement de dossier sur mac aller à la page ressource y'a des vidéos là-bas"
+        "Pour créer un dossier sur mac, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour trouver des vidéos sur comment créer un dossier sur mac, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour apprendre comment créer un dossier sur mac, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour toute information concernant la création la suppression ou le déplacement de dossier sur mac, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour savoir comment déplacer un dossier sur mac, allez à la page ressource où vous pouvez trouver des vidéos"
       ]
     },
     {
-      "tag": "ameli",
+      "tag": "Ameli",
       "patterns": [
-        "Comment créer un compte ameli ?",
-        "Je veux créer un compte ameli",
-        "J'arrive pas à créer mon compte ameli",
-        "Comment modifier le mot de passe de mon compte ameli",
-        "Comment modifier des informations sur mon compte ameli"
+        "Comment créer un compte Ameli ?",
+        "Je veux créer un compte Ameli",
+        "Je n'arrive pas à créer mon compte Ameli",
+        "Comment modifier le mot de passe de mon compte Ameli",
+        "Comment modifier des informations sur mon compte Ameli"
       ],
       "responses": [
-        "Pour savoir comment créer un compte ameli à la page ressource y'a des vidéos là-bas",
-        "Pour trouver des vidéos sur comment créer un compte ameli aller à la page ressource y'a des vidéos là-bas",
-        "Pour apprendre à créer un compte ameli aller à la page ressource y'a des vidéos là-bas",
-        "Pour toute information concernant la creation la modification de votre compte ameli aller à la page ressource y'a des vidéos là-bas",
-        "Pour modifier les informations de votre compte ameli aller à la page ressource y'a des vidéos là-bas"
+        "Pour savoir comment créer un compte Ameli, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour trouver des vidéos sur comment créer un compte Ameli, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour apprendre à créer un compte Ameli, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour toute information concernant la création, la modification de votre compte Ameli, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour modifier les informations de votre compte Ameli, allez à la page ressource où vous pouvez trouver des vidéos"
       ]
     },
     {
-      "tag": "caf",
+      "tag": "CAF",
       "patterns": [
-        "Comment créer un compte caf ?",
-        "Je ne sais pas utiliser la site de caf",
-        "Je veux créer un compte caf",
-        "J'arrive pas à créer mon compte caf",
-        "Comment modifier le mot de passe de mon compte caf",
+        "Comment créer un compte CAF ?",
+        "Je ne sais pas utiliser le site de CAF",
+        "Je veux créer un compte CAF",
+        "Je n'arrive pas à créer mon compte CAF",
+        "Comment modifier le mot de passe de mon compte CAF",
         "Comment prendre un rendez-vous avec ma CAF ?"
       ],
       "responses": [
-        "Pour savoir comment créer un compte caf à la page ressource y'a des vidéos là-bas",
-        "Pour savoir comment modifier votre le mot de passe de votre compte caf à la page ressource y'a des vidéos là-bas",
-        "Pour trouver des vidéos sur comment créer un compte caf aller à la page ressource y'a des vidéos là-bas",
-        "Pour voir comment modifier des informations sur votre compte caf aller à la page ressource y'a des vidéos là-bas",
-        "Pour apprendre à créer un compte caf aller à la page ressource y'a des vidéos là-bas à la page ressource y'a des vidéos là-bas",
-        "Pour toute information concernant la creation la modification de votre compte caf aller à la page ressource y'a des vidéos là-bas"
+        "Pour savoir comment créer un compte CAF, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour savoir comment modifier votre le mot de passe de votre compte CAF, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour trouver des vidéos sur comment créer un compte CAF, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour voir comment modifier des informations sur votre compte CAF, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour apprendre à créer un compte CAF, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour toute information concernant la creation la modification de votre compte CAF, allez à la page ressource où vous pouvez trouver des vidéos"
       ]
     },
     {
@@ -277,14 +280,14 @@
         "Comment créer un mot de passe securisé ?",
         "Comment tester si mon mot de passe est securisé",
         "Comment trouver des vidéos concernant les mots de passes securisés",
-        "J'arrive pas à créer un mot de passe securisé"
+        "Je n'arrive pas à créer un mot de passe securisé"
       ],
       "responses": [
-        "Pour savoir comment créer un mot de passe securisé à la page ressource y'a des vidéos là-bas",
-        "Pour trouver des vidéos sur comment créer un mot de passe securisé aller à la page ressource y'a des vidéos là-bas",
-        "Pour apprendre à créer un mot de passe securisé aller à la page ressource y'a des vidéos là-bas",
-        "Pour tester si votre mot de passe est securisé ou pas , aller à la page ressource y'a des vidéos là-bas",
-        "Pour toute information concernant la creation la modification de mot de passe securisé aller à la page ressource y'a des vidéos là-bas"
+        "Pour savoir comment créer un mot de passe securisé, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour trouver des vidéos sur comment créer un mot de passe securisé, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour apprendre à créer un mot de passe securisé, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour tester si votre mot de passe est securisé ou pas, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour toute information concernant la création ou la modification de mot de passe securisé, allez à la page ressource où vous pouvez trouver des vidéos"
       ]
     },
     {
@@ -292,29 +295,29 @@
       "patterns": [
         "Comment créer un compte ANTS ?",
         "Je veux créer un compte ANTS",
-        "J'arrive pas à créer un compte ANTS",
+        "Je n'arrive pas à créer un compte ANTS",
         "Comment trouver des vidéos pour créer un compte ANTS"
       ],
       "responses": [
-        "Pour savoir comment créer un compte ANTS à la page ressource y'a des vidéos là-bas",
-        "Pour trouver des vidéos sur comment créer un compte ANTS aller à la page ressource y'a des vidéos là-bas",
-        "Pour apprendre à créer un compte ANTS aller à la page ressource y'a des vidéos là-bas",
-        "Pour toute information concernant la creation la modification de votre compte ANTS aller à la page ressource y'a des vidéos là-bas"
+        "Pour savoir comment créer un compte ANTS, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour trouver des vidéos sur comment créer un compte ANTS, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour apprendre à créer un compte ANTS, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour toute information concernant la création ou la modification de votre compte ANTS, allez à la page ressource où vous pouvez trouver des vidéos"
       ]
     },
     {
       "tag": "impôt",
       "patterns": [
-        "Comment créer un compte sur  impôt.gouv.fr ?",
-        "Je veux créer un compte impôt.gouv.fr",
-        "J'arrive pas à créer un compte sur impôt.gouv.fr",
-        "Comment trouver des vidéos pour créer un sur impôt.gouv.fr"
+        "Comment créer un compte sur impôt.gouv.fr ?",
+        "Je veux créer un compte sur impôt.gouv.fr",
+        "Je n'arrive pas à créer un compte sur impôt.gouv.fr",
+        "Comment trouver des vidéos pour créer un compte sur impôt.gouv.fr"
       ],
       "responses": [
-        "Pour savoir comment créer un compte sur impôt.gouv.fr à la page ressource y'a des vidéos là-bas",
-        "Pour trouver des vidéos sur comment créer un compte sur impôt.gouv.fr aller à la page ressource y'a des vidéos là-bas",
-        "Pour apprendre à créer un compte sur impôt.gouv.fr aller à la page ressource y'a des vidéos là-bas",
-        "Pour toute information concernant la creation la modification de votre compte sur impôt.gouv.fr aller à la page ressource y'a des vidéos là-bas"
+        "Pour savoir comment créer un compte sur impôt.gouv.fr allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour trouver des vidéos sur comment créer un compte sur impôt.gouv.fr allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour apprendre à créer un compte sur impôt.gouv.fr allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour toute information concernant la création ou la modification de votre compte sur impôt.gouv.fr allez à la page ressource où vous pouvez trouver des vidéos"
       ]
     }
   ]

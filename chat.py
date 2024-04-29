@@ -52,6 +52,6 @@ def reponse_chat(sentence):
                         index=i
                 return intent['responses'][index]
     else:
-        return "Je suis désolé je n'ai pas compris votre question ou je n'ai pas encore la réponse à celle-ci.Pouvez-vous reformuler votre question avec une phrase courte et des termes simples ?"
+        return "Je suis désolé je n'ai pas compris votre question ou je n'ai pas encore la réponse à celle-ci. Pouvez-vous reformuler votre question avec une phrase courte et des termes simples ?"
 def count_occur(sentence,reponse):
     return sum([1 for i in range(len(sentence)) if reponse[i]==sentence[i] and reponse[i]==1])
