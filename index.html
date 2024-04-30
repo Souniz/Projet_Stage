@@ -28,7 +28,7 @@
             icone_chat.id="icone_chat"
             icone_chat.alt="chat"
             icone_chat.src="ressources_image/chat6.png"
-            var  divContainer = document.getElementById("repo")
+            var divContainer = document.getElementById("repo")
             let paragraphe_user = document.createElement("p");
             paragraphe_user.setAttribute("id","paragraphe_user")
             let user=document.createElement("span")
@@ -39,12 +39,12 @@
             message.textContent=document.getElementById("question_input").value
             paragraphe_user.appendChild(user)
             paragraphe_user.appendChild(message)
-            var request = new XMLHttpRequest();
-            request.onreadystatechange = function(){
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function(){
                 if(this.readyState == 4 && this.status == 200){
                     let paragraphe_chat = document.createElement("p");
                     paragraphe_chat.setAttribute("id","paragraphe_chat")
-                    reponse=this.responseText
+                    reponse=JSON.parse(this.responseText)
                     let chat=document.createElement("span")
                     chat.setAttribute("id","icone_chat")
                     let reponse_ch=document.createElement("span")
@@ -62,9 +62,9 @@
             }
             var userInput = document.getElementById("question_input").value;
             var data = JSON.stringify({ question: userInput });
-            request.open("POST", "http://127.0.0.1:5000/myapi");
-            request.setRequestHeader("Content-Type", "application/json");
-            request.send(data);
+            xhr.open("POST", "http://127.0.0.1:8000/myapi", true);
+            xhr.setRequestHeader("Content-Type", "application/json");
+            xhr.send(data);
         }
         document.getElementById("question_input").addEventListener("keydown", function(event) {
             if (event.key === "Enter") {

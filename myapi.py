@@ -1,15 +1,26 @@
-from flask import Flask, request
+from fastapi import FastAPI
+from pydantic import BaseModel
 from chat import reponse_chat
-from flask_cors import CORS
-app = Flask(__name__)
-app.config['JSON_AS_ASCII'] = False
-CORS(app)
-@app.route('/myapi',methods=['POST'])
+from fastapi.middleware.cors import CORSMiddleware
+import uvicorn
+app = FastAPI()
+origins = ["*"]  # Ou spécifiez les origines qu'on souhaite autoriser, par exemple ["http://localhost", "http://127.0.0.1"]
 
-def my_api():
-    question = request.json['question']
-    reponsee = reponse_chat(question)
+# Ajouter le middleware CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "PUT", "DELETE"],
+    allow_headers=["*"],
+)
+class Question(BaseModel):
+    question: str
+
+@app.post('/myapi')
+async def my_api(question: Question):
+    reponsee = reponse_chat(question.question)
     return reponsee
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    uvicorn.run(app,host="127.0.0.1",port=8000)
