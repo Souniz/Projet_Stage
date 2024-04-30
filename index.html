@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_chat.css">
+    <title>Votre Chat</title>
+</head>
+<body>
+    <div id="container">
+        <div class="init"><p>Bonjour, je suis l'assistant virtuel de l'Existance Numerique.</p>
+             Je peux répondre à vos questions relatives à la recherche des ressources qui ont été mises,
+             sur la platforme pour vous aider dans vos demarches en ligne.</div>
+        <div id="repo"></div>
+        <div class="class_input">
+            <input type="text" id="question_input" placeholder="Posez votre question">
+            <button id="poser_question_btn" onclick="question()"><img class="icon_send" src="ressources_image/icone_envoye4.png" alt="" srcset=""></button>
+        </div>
+        
+    </div>
+    <Script>
+        function question(){
+            icone_user=document.createElement('img')
+            icone_user.alt,"user"
+            icone_user.id="icone_user"
+            icone_user.src="ressources_image/user3.png"
+            icone_chat=document.createElement('img')
+            icone_chat.id="icone_chat"
+            icone_chat.alt="chat"
+            icone_chat.src="ressources_image/chat6.png"
+            var divContainer = document.getElementById("repo")
+            let paragraphe_user = document.createElement("p");
+            paragraphe_user.setAttribute("id","paragraphe_user")
+            let user=document.createElement("span")
+            user.setAttribute("id","icone_user")
+            let message=document.createElement("span")
+            message.setAttribute("id","message_user")
+            user.appendChild(icone_user)
+            message.textContent=document.getElementById("question_input").value
+            paragraphe_user.appendChild(user)
+            paragraphe_user.appendChild(message)
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function(){
+                if(this.readyState == 4 && this.status == 200){
+                    let paragraphe_chat = document.createElement("p");
+                    paragraphe_chat.setAttribute("id","paragraphe_chat")
+                    reponse=JSON.parse(this.responseText)
+                    let chat=document.createElement("span")
+                    chat.setAttribute("id","icone_chat")
+                    let reponse_ch=document.createElement("span")
+                    reponse_ch.setAttribute("id","reponse_chat")
+                    chat.appendChild(icone_chat)
+                    reponse_ch.textContent=reponse
+                    paragraphe_chat.appendChild(chat)
+                    paragraphe_chat.appendChild(reponse_ch)
+                    divContainer.appendChild(paragraphe_user);
+                    divContainer.appendChild(paragraphe_chat);
+                    document.getElementById("question_input").value=""
+                    
+
+                }
+            }
+            var userInput = document.getElementById("question_input").value;
+            var data = JSON.stringify({ question: userInput });
+            xhr.open("POST", "http://127.0.0.1:8000/myapi", true);
+            xhr.setRequestHeader("Content-Type", "application/json");
+            xhr.send(data);
+        }
+        document.getElementById("question_input").addEventListener("keydown", function(event) {
+            if (event.key === "Enter") {
+                event.preventDefault(); 
+                document.getElementById("poser_question_btn").click();
+            }
+        });
+    </Script>
+</body>
+</html>
