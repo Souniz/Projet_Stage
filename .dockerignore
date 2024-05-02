@@ -1,0 +1,7 @@
+cht_env/
+__pycache__/
+*.env
+*.env.*
+*.html
+*.css
+*.js
