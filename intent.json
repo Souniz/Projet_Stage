@@ -105,7 +105,7 @@
     },
     {
       "tag": "merci",
-      "patterns": ["Merci", "Merci beaucoup", "C'est utile", "Merci beaucoup !"],
+      "patterns": ["Merci", "Merci beaucoup", "C'est utile", "Merci beaucoup !","Merci pour votre aide"],
       "responses": ["Je vous en prie ! Je suis là pour vous aider", 
                     "De rien ! Je suis là pour vous aider", 
                     "C'est un  plaisir ! Je suis là pour vous aider"]
@@ -117,7 +117,7 @@
         "Je dois scanner un QR code mais je n'arrive pas ?",
         "J'ai un problème pour scanner un QR code ?",
         "je veux des vidéos sur l'utilisation de Qr code",
-        "Je'aimerai apprendre à utiliser les qr code",
+        "J'aimerai apprendre à utiliser les qr code",
         "Je veux apprendre à utiliser les qr code"
       ],
       "responses": [
@@ -130,7 +130,7 @@
         "tag":"aide",
         "patterns":[
             "Peux-tu m'aider svp ?",
-            "J'ai un problème ?",
+            "J'ai un problème ",
             "Pouvez-vous m'aider s'il vous plait ?",
             "J'ai un souci",
             "J'ai besoin d'aide",
@@ -160,12 +160,13 @@
       ]
     },
     {
-      "tag": "médical",
+      "tag": "Doctolib",
       "patterns": [
         "je ne sais pas utiliser Doctolib",
-        "Comment je peux trouver un médecin pour un rendez-vous médical sur Doctolib?",
+        "Comment je peux trouver un médecin pour un rendez-vous médical sur Doctolib ?",
         "Je veux créer un compte sur Doctolib ?",
-        "Comment je peux faire pour trouver un rendez-vous médical sur Doctolib?",
+        "Je veux m'inscrire sur Doctolib",
+        "Comment je peux faire pour trouver un rendez-vous médical sur Doctolib ?",
         "Je veux trouver un rendez-vous médical sur Doctolib",
         "Comment trouver un médecin pour un rendez-vous médical sur Doctolib ",
         "Je veux prendre un rendez-vous médical avec un médecin sur Doctolib",
@@ -178,12 +179,15 @@
         "Où est-ce que je peux trouver les vidéos de Doctolib ?",
         "Où est-ce que je peux trouver des vidéos sur l'utilisation de Doctolib ?",
         "Est-ce-que je peux trouver des vidéos concernant Doctolib ?"
-        
       ],
       "responses": [
-        "Pour toutes les informations concernant vos rendez-vous médicaux sur Doctolib, allez sur la page d'accueil et défiler en bas jusqu'à la thématique santé",
-        "Vous pouvez aller à la page d'accueil de notre plateforme  oùvous trouverez toutes les informations concernant l'utilisation de la plateforme Doctolib",
+        "Pour savoir comment trouver un rendez-vous medical sur Doctolib allez sur la page ressource et défiler en bas jusqu'à la thématique santé",
+        "Pour savoir comment modifier un rendez-vous medical sur Doctolib allez sur la page ressource et défiler en bas jusqu'à la thématique santé",
+        "Pour savoir comment annuler un rendez-vous medical sur Doctolib allez sur la page ressource et défiler en bas jusqu'à la thématique santé",
+        "Pour toutes les informations concernant vos rendez-vous médicaux sur Doctolib, allez sur la page ressource et défiler en bas jusqu'à la thématique santé",
+        "Vous pouvez aller à la page d'accueil de notre plateforme  où vous trouverez toutes les informations concernant l'utilisation de la plateforme Doctolib",
         "On a mis plusieurs vidéos sur la plateforme pour vous accompagner dans vos démarches médicales sur Doctolib",
+        "Pour savoir comment s'inscrire ou creer un compte sur Doctolib allez à la thématiques santé dans la page ressource de notre plateforme où vous trouverez toutes les informations concernant l'utilisation de Doctolib",
         "Allez à la thématiques santé dans la page ressource de notre plateforme où vous trouverez toutes les informations concernant l'utilisation de Doctolib",
         "Pour regarder les vidéos corncernant Doctolib, allez à la thématiques santé dans la page ressource de notre plateforme où vous trouverez toutes les informations concernant l'utlisation de Doctolib ou bien allez sur notre chaine youtube"
       ]
@@ -216,6 +220,8 @@
       ],
       "responses": [
         "Pour créer un dossier sur windows, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour supprimer un dossier sur windows, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour déplacer un dossier sur windows, allez à la page ressource où vous pouvez trouver des vidéos",
         "Pour trouver des vidéos sur comment créer un dossier sur windows, allez à la page ressource où vous pouvez trouver des vidéos",
         "Pour apprendre comment créer un dossier sur windows, allez à la page ressource où vous pouvez trouver des vidéos",
         "Pour toute information concernant la création, la suppression ou le déplacement de dossier sur windows, allez à la page ressource où vous pouvez trouver des vidéos"
@@ -235,7 +241,8 @@
         "Pour trouver des vidéos sur comment créer un dossier sur mac, allez à la page ressource où vous pouvez trouver des vidéos",
         "Pour apprendre comment créer un dossier sur mac, allez à la page ressource où vous pouvez trouver des vidéos",
         "Pour toute information concernant la création la suppression ou le déplacement de dossier sur mac, allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour savoir comment déplacer un dossier sur mac, allez à la page ressource où vous pouvez trouver des vidéos"
+        "Pour savoir comment déplacer ou un dossier sur mac, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour savoir comment supprimer un dossier sur mac, allez à la page ressource où vous pouvez trouver des vidéos"
       ]
     },
     {

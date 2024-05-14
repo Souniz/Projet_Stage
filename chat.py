@@ -39,7 +39,7 @@ def reponse_chat(sentence):
 
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
-    if prob.item() > 0.97:
+    if prob.item() > 0.95:
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 max_occ=0
@@ -47,8 +47,8 @@ def reponse_chat(sentence):
                 for i in range(len(intent["responses"])):
                     rep=intent['responses'][i]
                     rep=bag_of_words(tokenize(rep),all_words)
-                    if count_occur(rep,tmp)>max_occ:
-                        max_occ=count_occur(rep,tmp)
+                    if count_occur(tmp,rep)>=max_occ:
+                        max_occ=count_occur(tmp,rep)
                         index=i
                 return intent['responses'][index]
     else:

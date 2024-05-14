@@ -7,11 +7,12 @@ nltk.download('stopwords')
 nlp = spacy.load("fr_core_news_sm")
 stemmer =  SnowballStemmer("french")
 
-def tokenize(sentence):
+def tokenize(sentence:str):
     """
     split sentence into array of words/tokens
     a token can be a word or punctuation character, or number
     """
+    sentence=sentence.replace("'"," ").replace('é','e').replace('-',' ')
     return nltk.word_tokenize(sentence,language='french')
     # token=nlp(sentence)
     # return [str(i) for i in token]

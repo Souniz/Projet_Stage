@@ -45,6 +45,7 @@
                     let paragraphe_chat = document.createElement("p");
                     paragraphe_chat.setAttribute("id","paragraphe_chat")
                     reponse=JSON.parse(this.responseText)
+                    console.log(reponse)
                     let chat=document.createElement("span")
                     chat.setAttribute("id","icone_chat")
                     let reponse_ch=document.createElement("span")
@@ -62,7 +63,7 @@
             }
             var userInput = document.getElementById("question_input").value;
             var data = JSON.stringify({ question: userInput });
-            xhr.open("POST", "http://127.0.0.1:8000/myapi", true);
+            xhr.open("POST", "http://127.0.0.1:8000/myapi");                        
             xhr.setRequestHeader("Content-Type", "application/json");
             xhr.send(data);
         }
