@@ -44,14 +44,29 @@
                 if(this.readyState == 4 && this.status == 200){
                     let paragraphe_chat = document.createElement("p");
                     paragraphe_chat.setAttribute("id","paragraphe_chat")
-                    reponse=JSON.parse(this.responseText)
-                    console.log(reponse)
+                    rep=JSON.parse(this.responseText).split(':')
+                    if (rep.length>1)
+                    {
+                        reponse=rep[0]
+                        lien=rep[1].concat(":").concat(rep[2])
+                        balise_line=document.createElement("a")
+                        balise_line.href=lien
+                        balise_line.textContent="vous pouvez cliquer directement sur ce lien"
+                        balise_line.style.color="blue"
+                        balise_line.target="_blank"
+                    }
+                    else{
+                        reponse=JSON.parse(this.responseText)
+                    }
                     let chat=document.createElement("span")
                     chat.setAttribute("id","icone_chat")
                     let reponse_ch=document.createElement("span")
                     reponse_ch.setAttribute("id","reponse_chat")
                     chat.appendChild(icone_chat)
                     reponse_ch.textContent=reponse
+                    if (rep.length>1){
+                        reponse_ch.appendChild(balise_line)
+                    }
                     paragraphe_chat.appendChild(chat)
                     paragraphe_chat.appendChild(reponse_ch)
                     divContainer.appendChild(paragraphe_user);
@@ -63,7 +78,7 @@
             }
             var userInput = document.getElementById("question_input").value;
             var data = JSON.stringify({ question: userInput });
-            xhr.open("POST", "http://127.0.0.1:8000/myapi");                        
+            xhr.open("POST", "https://chatbot-stage-lchpcgazbq-od.a.run.app/myapi");                        
             xhr.setRequestHeader("Content-Type", "application/json");
             xhr.send(data);
         }

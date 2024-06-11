@@ -54,30 +54,15 @@
             "Comment consulter les spams de ma boite mail"
           ],
       "responses": [
-        "Pour savoir comment créer un compte gmail, allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour savoir comment recupérer votre mot de passe gmail, allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour savoir comment changer votre mot de passe gmail, allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour savoir comment joindre votre fichier à un mail sur gmail, allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour savoir comment supprimer un mail, allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour savoir comment consulter vos spams, allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour savoir comment supprimer un compte gmail, allez à la page ressource où vous pouvez trouver des vidéos"
+        "Pour savoir comment créer un compte gmail, allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-communication.html",
+        "Pour savoir comment recupérer votre mot de passe gmail, allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-communication.html",
+        "Pour savoir comment changer votre mot de passe gmail, allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-communication.html",
+        "Pour savoir comment joindre votre fichier à un mail sur gmail, allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-communication.html",
+        "Pour savoir comment supprimer un mail, allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-communication.html",
+        "Pour savoir comment consulter vos spams, allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-communication.html",
+        "Pour savoir comment supprimer un compte gmail, allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-communication.html"
       ]
     },
-    {
-      "tag":"mail",
-      "patterns":[
-        "Je veux joindre un fichier par mail",
-        "Je n'arrive pas à joindre un fichier par mail",
-        "Comment supprimer un mail",
-        "Comment consulter les spams de ma boite mail"
-         ],
-     "responses": [
-        "Pour savoir comment joindre un fichier à un mail sur gmail, allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour savoir comment supprimer un mail, allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour savoir comment consulter vos spams, allez à la page ressource où vous pouvez trouver des vidéos"
-     ]
-
-   },
     {
       "tag":"google",
       "patterns":[
@@ -110,6 +95,22 @@
                     "De rien ! Je suis là pour vous aider", 
                     "C'est un  plaisir ! Je suis là pour vous aider"]
     },
+    {
+      "tag": "médecin",
+      "patterns": ["Je trouver un médecin traitant", 
+      "Comment trouver un médecin traitant ?", 
+      "Comment trouver un médecin généraliste ?",
+      "Comment trouver un médecin dentiste ?",
+      "Comment trouver un dentiste ?",
+      "j'ai besoin d'un dentiste",
+      "j'ai besoin d'un medecin "
+    ],
+      "responses": ["Pour trouver un médecin aller sur la plateforme doctolib et pour plus d'informations allez sur notre page ressource  et défiler en bas jusqu'à la thématique santé :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-sante.html", 
+                    "Pour trouver un médecin dentiste aller sur la plateforme doctolib et pour plus d'informations allez sur notre page ressource  et défiler en bas jusqu'à la thématique santé :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-sante.html",
+                    "Pour trouver un ou une dentiste aller sur la plateforme doctolib et pour plus d'informations allez sur notre page ressource  et défiler en bas jusqu'à la thématique santé :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-sante.html",
+                  "Pour trouver un médecin généraliste aller sur la plateforme doctolib et pour plus d'informations allez sur notre page ressource  et défiler en bas jusqu'à la thématique santé :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-sante.html"]
+    },
+   
     {
       "tag": "qr",
       "patterns":[
@@ -181,15 +182,15 @@
         "Est-ce-que je peux trouver des vidéos concernant Doctolib ?"
       ],
       "responses": [
-        "Pour savoir comment trouver un rendez-vous medical sur Doctolib allez sur la page ressource et défiler en bas jusqu'à la thématique santé",
-        "Pour savoir comment modifier un rendez-vous medical sur Doctolib allez sur la page ressource et défiler en bas jusqu'à la thématique santé",
-        "Pour savoir comment annuler un rendez-vous medical sur Doctolib allez sur la page ressource et défiler en bas jusqu'à la thématique santé",
-        "Pour toutes les informations concernant vos rendez-vous médicaux sur Doctolib, allez sur la page ressource et défiler en bas jusqu'à la thématique santé",
-        "Vous pouvez aller à la page d'accueil de notre plateforme  où vous trouverez toutes les informations concernant l'utilisation de la plateforme Doctolib",
-        "On a mis plusieurs vidéos sur la plateforme pour vous accompagner dans vos démarches médicales sur Doctolib",
-        "Pour savoir comment s'inscrire ou creer un compte sur Doctolib allez à la thématiques santé dans la page ressource de notre plateforme où vous trouverez toutes les informations concernant l'utilisation de Doctolib",
-        "Allez à la thématiques santé dans la page ressource de notre plateforme où vous trouverez toutes les informations concernant l'utilisation de Doctolib",
-        "Pour regarder les vidéos corncernant Doctolib, allez à la thématiques santé dans la page ressource de notre plateforme où vous trouverez toutes les informations concernant l'utlisation de Doctolib ou bien allez sur notre chaine youtube"
+        "Pour savoir comment trouver un rendez-vous medical sur Doctolib allez sur la page ressource et défiler en bas jusqu'à la thématique santé :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-sante.html",
+        "Pour savoir comment modifier un rendez-vous medical sur Doctolib allez sur la page ressource et défiler en bas jusqu'à la thématique santé :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-sante.html",
+        "Pour savoir comment annuler un rendez-vous medical sur Doctolib allez sur la page ressource et défiler en bas jusqu'à la thématique santé :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-sante.html",
+        "Pour toutes les informations concernant vos rendez-vous médicaux sur Doctolib, allez sur la page ressource et défiler en bas jusqu'à la thématique santé :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-sante.html",
+        "Vous pouvez aller à la page d'accueil de notre plateforme  où vous trouverez toutes les informations concernant l'utilisation de la plateforme Doctolib :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-sante.html",
+        "On a mis plusieurs vidéos sur la plateforme pour vous accompagner dans vos démarches médicales sur Doctolib :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-sante.html",
+        "Pour savoir comment s'inscrire ou creer un compte sur Doctolib allez à la thématiques santé dans la page ressource de notre plateforme où vous trouverez toutes les informations concernant l'utilisation de Doctolib :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-sante.html",
+        "Allez à la thématiques santé dans la page ressource de notre plateforme où vous trouverez toutes les informations concernant l'utilisation de Doctolib :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-sante.html",
+        "Pour regarder les vidéos corncernant Doctolib, allez à la thématiques santé dans la page ressource de notre plateforme où vous trouverez toutes les informations concernant l'utlisation de Doctolib ou bien allez sur notre chaine youtube :https//hossemoh.tpweb.univ-rouen.fr/litis/categorie-sante.html"
       ]
     },
     {
@@ -241,7 +242,7 @@
         "Pour trouver des vidéos sur comment créer un dossier sur mac, allez à la page ressource où vous pouvez trouver des vidéos",
         "Pour apprendre comment créer un dossier sur mac, allez à la page ressource où vous pouvez trouver des vidéos",
         "Pour toute information concernant la création la suppression ou le déplacement de dossier sur mac, allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour savoir comment déplacer ou un dossier sur mac, allez à la page ressource où vous pouvez trouver des vidéos",
+        "Pour savoir comment déplacer un dossier sur mac, allez à la page ressource où vous pouvez trouver des vidéos",
         "Pour savoir comment supprimer un dossier sur mac, allez à la page ressource où vous pouvez trouver des vidéos"
       ]
     },
@@ -273,12 +274,12 @@
         "Comment prendre un rendez-vous avec ma CAF ?"
       ],
       "responses": [
-        "Pour savoir comment créer un compte CAF, allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour savoir comment modifier votre le mot de passe de votre compte CAF, allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour trouver des vidéos sur comment créer un compte CAF, allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour voir comment modifier des informations sur votre compte CAF, allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour apprendre à créer un compte CAF, allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour toute information concernant la creation la modification de votre compte CAF, allez à la page ressource où vous pouvez trouver des vidéos"
+        "Pour savoir comment créer un compte CAF, allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-administratif.html",
+        "Pour savoir comment modifier votre le mot de passe de votre compte CAF, allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-administratif.html",
+        "Pour trouver des vidéos sur comment créer un compte CAF, allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-administratif.html",
+        "Pour voir comment modifier des informations sur votre compte CAF, allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-administratif.html",
+        "Pour apprendre à créer un compte CAF, allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-administratif.html",
+        "Pour toute information concernant la creation la modification de votre compte CAF, allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-administratif.html"
       ]
     },
     {
@@ -290,11 +291,11 @@
         "Je n'arrive pas à créer un mot de passe securisé"
       ],
       "responses": [
-        "Pour savoir comment créer un mot de passe securisé, allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour trouver des vidéos sur comment créer un mot de passe securisé, allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour apprendre à créer un mot de passe securisé, allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour tester si votre mot de passe est securisé ou pas, allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour toute information concernant la création ou la modification de mot de passe securisé, allez à la page ressource où vous pouvez trouver des vidéos"
+        "Pour savoir comment créer un mot de passe securisé, allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-securite.html",
+        "Pour trouver des vidéos sur comment créer un mot de passe securisé, allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-securite.html",
+        "Pour apprendre à créer un mot de passe securisé, allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-securite.html",
+        "Pour tester si votre mot de passe est securisé ou pas, allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-securite.html",
+        "Pour toute information concernant la création ou la modification de mot de passe securisé, allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-securite.html"
       ]
     },
     {
@@ -306,10 +307,10 @@
         "Comment trouver des vidéos pour créer un compte ANTS"
       ],
       "responses": [
-        "Pour savoir comment créer un compte ANTS, allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour trouver des vidéos sur comment créer un compte ANTS, allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour apprendre à créer un compte ANTS, allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour toute information concernant la création ou la modification de votre compte ANTS, allez à la page ressource où vous pouvez trouver des vidéos"
+        "Pour savoir comment créer un compte ANTS, allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-administratif.html",
+        "Pour trouver des vidéos sur comment créer un compte ANTS, allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-administratif.html",
+        "Pour apprendre à créer un compte ANTS, allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-administratif.html",
+        "Pour toute information concernant la création ou la modification de votre compte ANTS, allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-administratif.html"
       ]
     },
     {
@@ -321,10 +322,10 @@
         "Comment trouver des vidéos pour créer un compte sur impôt.gouv.fr"
       ],
       "responses": [
-        "Pour savoir comment créer un compte sur impôt.gouv.fr allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour trouver des vidéos sur comment créer un compte sur impôt.gouv.fr allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour apprendre à créer un compte sur impôt.gouv.fr allez à la page ressource où vous pouvez trouver des vidéos",
-        "Pour toute information concernant la création ou la modification de votre compte sur impôt.gouv.fr allez à la page ressource où vous pouvez trouver des vidéos"
+        "Pour savoir comment créer un compte sur impôt.gouv.fr allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-administratif.html",
+        "Pour trouver des vidéos sur comment créer un compte sur impôt.gouv.fr allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-administratif.html",
+        "Pour apprendre à créer un compte sur impôt.gouv.fr allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-administratif.html",
+        "Pour toute information concernant la création ou la modification de votre compte sur impôt.gouv.fr allez à la page ressource où vous pouvez trouver des vidéos :https://hossemoh.tpweb.univ-rouen.fr/litis/categorie-administratif.html"
       ]
     }
   ]
